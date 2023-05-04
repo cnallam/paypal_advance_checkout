@@ -22,7 +22,7 @@
       "description": "Sandbox client ID of the application.",
       "documentationUrl": "https://developer.paypal.com/api/rest/"
     },
-    "SECRET": {
+    "APP_SECRET": {
       "description": "Sandbox secret of the application.",
       "documentationUrl": "https://developer.paypal.com/api/rest/"
     }
