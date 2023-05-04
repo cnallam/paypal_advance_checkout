@@ -7,7 +7,7 @@ WELCOME_MESSAGE="
 
 🛠️  Your environment is fully setup with all the required software.
 
-🚀 Once you rename the \".env.example\" file to \".env\" and update \"CLIENT_ID\" and \"APP_SECRET\", the checkout page will automatically open in the browser after the server is restarted."
+🚀 Once you rename the \".env.example\" file to \".env\" and update \"CLIENT_ID\" and \"SECRET\", the checkout page will automatically open in the browser after the server is restarted."
 
 ALTERNATE_WELCOME_MESSAGE="
 👋 Welcome to the \"Checkout Advanced Integration Example\"
@@ -16,7 +16,7 @@ ALTERNATE_WELCOME_MESSAGE="
 
 🚀 The checkout page will automatically open in the browser after the server is started."
 
-if [ -n "$CLIENT_ID" ] && [ -n "$APP_SECRET" ]; then
+if [ -n "$CLIENT_ID" ] && [ -n "$SECRET" ]; then
     WELCOME_MESSAGE="${ALTERNATE_WELCOME_MESSAGE}"
 fi
 
