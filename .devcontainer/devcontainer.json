@@ -1,7 +1,8 @@
 {
   "name": "Advance Checkout Integration",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "onCreateCommand": "./welcome-message.sh",
+  "onCreateCommand": "bash ./.devcontainer/welcome-message.sh",
+  "remoteUser": "root",
   "postCreateCommand": "npm install",
   "postAttachCommand": {
 	"Start server": "npm start"
